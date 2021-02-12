@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+   background-color: #00a;
+   float: right;
+   justify-content: flex-end;
+   flex-direction: column;
+   width: 15vw;
+   flex-basis: 15vw;
+   flex-shrink: 0;
+   order: 1;
+}
+
+nav a {
+  background-color: skyblue;
+  color: white;
+  padding: 0.25em 0.5em;
+  margin-left: : 0.5em;
+  transition: background-color 0.7s;
+  text-decoration: none;
+  transition: 1s;
+}
+
+nav a:hover {
+  background-color: #66f;
+
+}
+
+header, section {
+  overflow: auto;
+  color: ddf#;
+  padding: 0 0.5em;
+  background-color: lightblue;
+
+
+}
+main{
+  width: 85vw;
+  box-sizing: border-box;
+  display: flex;
+
+}
+section{
+  box-sizing: border-box;
+
+}
